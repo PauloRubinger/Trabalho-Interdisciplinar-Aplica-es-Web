@@ -1,0 +1,161 @@
+.logo{
+    padding: 0;
+    margin: 0%;
+    width: 90px;
+    height: 90px;
+}
+.header_area{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0%;
+    text-align: center;
+    width: 100%;
+}
+.header_area{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3%;
+}
+.sports_buttons{
+    margin-bottom: 3%;
+}
+.btn-light{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 150%;
+}
+.login_button{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    width:fit-content;
+}
+.login_btn{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 15%;
+}
+#carouselExampleCaptions{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.carousel-caption{
+    padding: 1%;
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+}
+h1{
+    align-items: center;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-bottom: 3%;
+}
+h3{
+    font-size: 35px;
+    text-align: center;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+}
+@media all and (min-width:1501px) {
+    .form-control{
+        font-size: 25px;
+    }
+    .btn-success{
+        font-size: 25px;
+    }
+    .btn-light{
+        font-size: 30px;
+   }
+}
+@media all and (min-width: 1200px) and (max-width: 1500px) {
+    .form-control{
+        font-size: 20px;
+    }
+    .btn-success{
+        font-size: 20px;
+    }
+    .btn-light{
+        font-size: 25px;
+   }
+}
+@media all and (min-width: 801px) and (max-width: 1199px) {
+    .form-control{
+        font-size: 15px;
+    }
+    .btn-success{
+        font-size: 15px;
+    }
+    .btn-light{
+        font-size: 20px;
+   }
+    .sports_buttons{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .d-flex{
+        margin-bottom: 5%;
+    }
+    footer{
+        margin-top: 2%;
+    }
+}
+@media all and (min-width: 400px) and (max-width: 800px) {
+    .logo{
+        display: none;
+    }
+    .sports_buttons{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .d-flex{
+        margin-bottom: 10%;
+    }
+    footer{
+        margin-top: 5%;
+    }
+}
+@media all and (max-width: 399px) {
+    .logo{
+        display: none;
+    }
+    .sports_buttons{
+        margin-top: 12%;
+        margin-bottom: 12%;
+    }
+    .d-flex{
+        margin-bottom: 12%;
+    }
+    footer{
+        margin-top: 6%;
+    }
+}
