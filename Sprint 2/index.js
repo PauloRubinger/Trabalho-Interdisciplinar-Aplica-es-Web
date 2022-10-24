@@ -10,6 +10,6 @@ window.onload = () => {
 };
 };
 function login() {
-    alert('Faça login!');
+    alert('Faça login para obter uma página inicial personalizada de acordo com seu time de coração!');
 }
 login();
