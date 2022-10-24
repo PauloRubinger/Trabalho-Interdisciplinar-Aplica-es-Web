@@ -10,5 +10,6 @@ window.onload = () => {
 };
 };
 function login() {
-    alert('Faça login!')
+    alert('Faça login!');
 }
+login();
