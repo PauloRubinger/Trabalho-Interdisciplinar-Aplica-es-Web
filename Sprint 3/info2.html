@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+              integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <title>Informações</title>
+    </head>
+
+    <body class="bg-dark text-light">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="main.js" defer></script>
+        <header>
+            <div class="container-fluid header_area">
+                <div class="row">
+                    <div class="col-1">
+                        <img src="images/Logo.png" alt="Logo do site" class="logo">
+                    </div>
+                    <div class="col-9">
+                        <h1>Encontre em instantes o local de transmissão do jogo que deseja ver!</h1>
+                    </div>
+                    <div class="col-2 home_button">
+                        <button type="button" class="btn btn-light home_btn">Voltar para página principal</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>  
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-1">
+                        <a href="info.html"><button type="button" class="btn btn-light back_btn">Voltar</button></a>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <div class="table-responsive">
+                            <table id="table" class="table table-bordered text-light">
+                                <caption class="text-light">Últimos resultados</caption>
+                                    <thead>
+                                        <tr>
+                                            <th class="position">#</th>
+                                            <th class="date">DATA</th>
+                                            <th class="home_team">TIME DA CASA</th>
+                                            <th class="score">PLACAR</th>
+                                            <th class="visitor_team">TIME VISITANTE</th>
+                                            <th class="phase">FASE</th>
+                                            <th class="season">TEMPORADA</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+
+    <footer>
+        <div class="container-fluid">
+            <p>Desenvolvido para a disciplina de Trabalho Interdisciplinar: Aplicações Web - <b>ICEI PUC Minas</b> - 
+                Belo Horizonte - 2022</p>
+        </div>
+    </footer>
+
+</html>
